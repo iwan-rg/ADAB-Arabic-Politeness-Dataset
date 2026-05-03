@@ -2,8 +2,6 @@
 
 > **A Large-Scale Resource for Computational Sociopragmatics**
 > 
-> *LREC-COLING 2026*
-
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset Size](https://img.shields.io/badge/Dataset-10%2C000%20texts-blue)]()
 [![Languages](https://img.shields.io/badge/Language-Arabic%20(MSA%20%2B%204%20dialects)-green)]()
@@ -65,21 +63,11 @@ The dataset supports a **three-way politeness classification** task (Polite / Ne
 
 **Both:** Prayers — *Du'ā' Lak* (blessing) vs. *Du'ā' 'Alayk* (curse), same linguistic form with dual intent
 
-> **Note:** The dataset will be publicly released upon paper acceptance. Please watch/star this repository for updates.
-
 ---
 
 ## Benchmarks
 
 We evaluated **40 model configurations** across three paradigms:
-
-### Results Summary
-
-| Model Family | Avg. Accuracy | Avg. Macro-F1 |
-|---|---|---|
-| Transformer-Based | — | **0.79** |
-| Traditional ML | — | 0.65 |
-| LLMs | — | 0.56 |
 
 ### Top-5 Models
 
@@ -101,33 +89,6 @@ We evaluated **40 model configurations** across three paradigms:
 
 ---
 
-## Repository Structure
-
-```
-ADAB-Arabic-Politeness-Dataset/
-│
-├── dataset/
-│   ├── adab_dataset.csv          # Full annotated dataset (released post-acceptance)
-│   ├── adab_train.csv            # Train split
-│   ├── adab_dev.csv              # Dev split
-│   └── adab_test.csv             # Test split
-│
-├── annotation_guidelines/
-│   └── guidelines.pdf            # Full annotation guidelines
-│
-├── benchmarks/
-│   ├── traditional_ml/           # Scripts for LR, SVM, XGBoost experiments
-│   ├── transformers/             # Fine-tuning scripts for BERT-based models
-│   └── llms/                     # Prompting scripts for LLM evaluation
-│
-├── paper/
-│   └── ADAB_LREC2026.pdf         # Camera-ready paper
-│
-└── README.md
-```
-
----
-
 ## Citation
 
 If you use ADAB in your research, please cite:
@@ -140,9 +101,8 @@ If you use ADAB in your research, please cite:
                Alhazmi, Hend Hamed and Alfear, Noof Abdullah and
                Alqifari, Reem Fahad and Almasoud, Ameera Masoud and
                Al-Ghamdi, Sharefah},
-  booktitle = {Proceedings of the Joint 31st International Conference on
-               Computational Linguistics and 16th International Conference on
-               Language Resources and Evaluation (LREC-COLING 2026)},
+  booktitle = {Proceedings of the The Fifteenth biennial Language 
+               Resources and Evaluation (LREC 2026)},
   year      = {2026}
 }
 ```
@@ -153,8 +113,3 @@ If you use ADAB in your research, please cite:
 
 The ADAB dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). It is intended for **research and educational purposes only**.
 
----
-
-## Contact
-
-For questions or collaborations, please contact **hendk@ksu.edu.sa** or open an [issue](https://github.com/iwan-rg/ADAB-Arabic-Politeness-Dataset/issues).
