@@ -7,7 +7,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset Size](https://img.shields.io/badge/Dataset-10%2C000%20texts-blue)]()
 [![Languages](https://img.shields.io/badge/Language-Arabic%20(MSA%20%2B%204%20dialects)-green)]()
-[![Paper](https://img.shields.io/badge/Paper-LREC--COLING%202026-red)]()
+[![Paper](https://img.shields.io/badge/Paper-LREC--COLING%202026-red)](https://arxiv.org/abs/2602.13870)
 
 ---
 
